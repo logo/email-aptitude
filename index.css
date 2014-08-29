@@ -1,0 +1,21 @@
+
+/**
+ * Email Aptitude logo.
+ */
+
+.logo[data-logo="Email Aptitude"] {
+  width: 0;
+}
+
+.logo[data-logo="Email Aptitude"] > * {
+  background-image: url(images/logo.svg);
+  margin: 0 0 0 0;
+}
+
+.logo[data-logo="Email Aptitude"][data-color="black"] > * {
+  background-image: url(images/logo-black.svg);
+}
+
+.logo[data-logo="Email Aptitude"][data-color="white"] > * {
+  background-image: url(images/logo-white.svg);
+}
